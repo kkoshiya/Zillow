@@ -3,6 +3,8 @@ pragma solidity ^0.8.13;
 
 // ============ External Imports ============
 import {Router} from "@hyperlane-xyz/core/contracts/Router.sol";
+import {IMessageRecipient} from "@hyperlane-xyz/core/interfaces/IMessageRecipient.sol";
+import {IOutbox} from "@hyperlane-xyz/core/interfaces/IOutbox.sol";
 
 /*
  * @title The Hello World App
