@@ -67,6 +67,8 @@ contract HelloWorld is Router {
 
     // ============ Internal functions ============
 
+    
+
     /**
      * @notice Handles a message from a remote router.
      * @dev Only called for messages sent from a remote router, as enforced by Router.sol.
